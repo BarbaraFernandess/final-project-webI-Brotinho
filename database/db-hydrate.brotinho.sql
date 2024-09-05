@@ -252,3 +252,47 @@ insert into recipe_tag (recipe_id, tag_id) values
 (11, 6),
 (11, 11);
 
+insert into recipe_tag (recipe_id, tag_id) values
+(12, 1),
+(12, 2),
+(12, 7),
+(12, 6);
+
+insert into recipe_tag (recipe_id, tag_id) values
+(13, 1),
+(13, 2),
+(13, 5),
+(13, 6);
+
+insert into recipe_tag (recipe_id, tag_id) values
+(14, 1),
+(14, 2),
+(14, 4),
+(14, 5),
+(14, 6);
+
+insert into recipe_tag (recipe_id, tag_id) values
+(15, 1),
+(15, 2),
+(15, 5),
+(15, 6);
+
+insert into recipe_tag (recipe_id, tag_id) values
+(16, 1),
+(16, 2),
+(16, 5),
+(16, 6);
+
+insert into recipe_tag (recipe_id, tag_id) values
+(17, 1),
+(17, 2),
+(17, 5),
+(17, 6),
+(17, 7);
+
+insert into recipe_tag (recipe_id, tag_id) values
+(18, 1),
+(18, 2),
+(18, 5),
+(18, 6),
+(18, 7);
