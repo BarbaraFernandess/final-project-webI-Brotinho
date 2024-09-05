@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+body {    
+    min-height: 100vh;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.profile-container {
+    width: 50%;
+    margin: 4rem auto;
+    background-color: #fff;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.user-icon-large {
+    font-size: 3rem;
+    color: #4CAF50;
+}
+
+h2 {
+    text-align: center;
+    margin: 0;
+}
+
+p {
+    text-align: center;
+    color: #666;
+    margin: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#form-container {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+	width: 80%;
+	margin-top: 2rem;
+}
+
+#username,
+#name,
+#email,
+#password {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+input[disabled] {
+    background-color: #e9e9e9;
+}

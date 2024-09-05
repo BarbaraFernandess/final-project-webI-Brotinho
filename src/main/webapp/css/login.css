@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+
+body{	
+	min-height: 100vh;
+	margin: 0;
+	font-family: "Open Sans", sans-serif;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar{
+	background-color: #8EFF96;
+    height: 4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+#icon-navbar{
+	display: flex;
+	flex-direction: row;	
+}
+
+#icon-navbar h3{
+	color: #3c8c43;
+	align-self: center;
+}
+
+#logo{
+	height: 3.5rem;
+	transform: translate(-0.5rem, -0.25rem);
+	
+}
+
+.main-container{
+	display: flex;
+	justify-content: center;
+	box-shadow: 5px 5px 10px #808080;
+	padding: 3rem;
+	border-radius: 1rem;
+	width: 90%;
+	max-width: 24rem;
+}
+
+h2{
+	align-self: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  width: 100%;
+}
+
+form label {
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #242c44;
+}
+
+form input {
+  border-radius: 5px;
+  border: 0.5px solid #242c44;
+  font-size: 15px;
+  padding: 0.7rem;
+}
+
+form input:focus {
+  border-color: #8EFF96;
+  outline: none;
+  padding: 0.7rem;
+}
+
+form button {
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: #242c44;
+  padding: 0.5rem;
+  color: #f0f0f0;
+  font-weight: 600;
+  margin-top: 0.7rem;
+  align-self: center;
+}
+
+button[type="submit"] {
+  background-color: #8EFF96;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  
+  &:hover{
+  	background-color: #5AA360;
+  }
+}
+
+.password-div{
+  flex-direction: row;
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+
+#password{
+  width: 100%;
+}
+.password-div i{
+  font-size: 20px;
+  position: absolute;
+  right: 5%;
+  cursor: pointer;
+  align-self: center;
+}
+
+a{
+	color: black;
+	
+	&:visited{
+		color: black;
+	}
+}

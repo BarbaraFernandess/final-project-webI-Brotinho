@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+body{	
+	min-height: 100vh;
+	margin: 0;
+	font-family: "Open Sans", sans-serif;
+}
+
+.recipe-container {
+    max-width: 600px;
+    background-color: white;
+    padding: 2.5rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 2rem auto;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.recipe-container p {
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+
+.recipe-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.recipe-container img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+}
+
+.info-item i {
+    margin-right: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li::before {
+    content: "•";
+    color: #ff6f61;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+ol {
+	padding: 0;
+}
+
+ol li {
+	margin-bottom: 6px;
+}
+
+#tag-container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+}
+
+#tag-container span {
+	background-color: #8EFF96;
+	color: #3c8c43;
+	padding: 2px 8px;
+	border-radius: 8px;
+	opacity: 0.9;
+	white-space: nowrap;
+}
+
+#tag-container span:hover {
+	scale: 1.05;
+	transition: scale 0.5s;
+	cursor: default;
+}
+
+#favorite-button{
+	border-style: none;
+	background-color: transparent;
+	align-items: center;
+	cursor: pointer;
+}
+
+#favorite-button i{
+	align-self: center;
+}
+
+#favorite-icon{
+	color: red;
+}

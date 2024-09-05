@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+body{	
+	min-height: 100vh;
+	margin: 0;
+	font-family: "Open Sans", sans-serif;
+}
+
+.navbar{
+	background-color: #8EFF96;
+	height: 4rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;	
+	align-content: centeR;
+}
+
+#icon-navbar{
+	display: flex;
+	flex-direction: row;	
+}
+
+#icon-navbar h3{
+	color: #3c8c43;
+	align-self: center;
+}
+
+#logo{
+	height: 3.5rem;
+	transform: translate(-0.5rem, -0.25rem);
+	
+}
+
+#user-icon{
+	font-size: 2rem;
+	color: black;
+}
+
+.nav-search{
+	display: flex;
+	flex-direction: row;
+	border-radius: 1rem;
+	background-color: white;
+	padding-left: 0.5rem;
+	align-items: center;
+	height: 2rem;
+	width: 30%;
+}
+
+.navbar input{
+	width: 100%;
+	height: 1.25rem;
+	border:none;
+	outline: none;
+	margin: 0.5rem;
+	font-size: 1rem;
+}
+
+.navbar #search-button{
+	border-top-right-radius: 1rem;
+	border-bottom-right-radius: 1rem;
+	height: 100%;
+	border: none;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	background-color: #71CC78;
+	font-weight: 600;
+	color: #fff;
+	cursor: pointer;
+	
+	&:hover{
+		background-color: #5AA360;
+	}
+}
+
+#user-icon{
+	font-size: 2rem;
+	cursor: pointer;
+	
+	&:hover{
+		color: #5AA360;
+	}
+}
+
+.dropbtn {
+  background-color: transparent;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.main-container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 2rem;
+}
+.recipe{
+	background-color: #fff;
+	display: flex;
+	flex-direction: row;
+	width: 30rem;
+	justify-content: space-between;
+	box-shadow: -1px 0px 13px 3px #cfcfcf;
+	gap: 5rem;
+	white-space: nowrap;
+}
+
+.recipe h5{
+	margin: 0;
+}
+.recipe img{
+	height: 125px;
+	width: 200px;
+}
+
+.recipe-info{
+	display: flex;
+	justify-content: space-around;	
+	flex-direction: row;
+}
+
+.recipe i{
+	cursor: pointer;
+}
